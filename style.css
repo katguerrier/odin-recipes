@@ -1,0 +1,68 @@
+body {
+    --finicky-color: hsl(50, 10%, 80%);
+    background-color: var(--finicky-color);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: hsl(180, 45%, 35%);
+    font-family: 'DejaVu Sans', 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+a {
+    font-family: sans-serif;
+    font-size: 1.25em;
+    color: gray;
+    display:block;
+    line-height: 1.75rem;
+    text-align:center;
+}
+a:visited {
+    color: hsl(180, 20%, 20%);
+}
+
+a:hover {
+    color: hsl(180,45%,35%);
+}
+
+ul, ol {
+    display: block;
+    background: linear-gradient(120deg, hsl(180, 20%, 80%), hsl(320, 40%, 80%));
+    width: max-content;
+    max-width: 40vw;
+    padding: 1em 1em 1em 1em;
+    border-radius:3%;
+    font-family: sans-serif;
+    letter-spacing: 0.06em;
+    box-shadow: 1px 1px 1px #888;
+    margin: auto;
+    line-height: 1.75em;
+}
+
+li {
+    margin-left: 1em;
+}
+
+p {
+    max-width: 60vw;
+    margin: auto;
+}
+
+img {
+    max-height: 40vh;
+    width: auto;
+    display: block;
+    margin: auto;
+    border-radius: 5%;
+    opacity: 80%;
+    box-shadow: 2px 2px 1px gold;
+}
+
+ul:hover, ol:hover {
+    opacity: 70%;
+}
+
+h1:hover, h2:hover {
+    text-decoration: underline;
+    color: hsl(0, 50%, 40%);
+}
